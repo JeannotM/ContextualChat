@@ -1,0 +1,23 @@
+name: ContextualChat
+main: me.skinnyjeans.cc.Main
+description: "test"
+prefix: "ContextualChat"
+version: 1.0
+author: SkinnyJeans
+api-version: 1.13
+softdepend: ["PlaceholderAPI"]
+
+commands:
+  contextualchat:
+    aliases: cc
+
+permissions:
+  cc.author:
+    default: true
+    description: "Shows the author of ContextualChat"
+  cc.reload:
+    default: op
+    description: "Reload ContextualChat"
+  cc.reset:
+    default: op
+    description: "Reset who last sent a message"
